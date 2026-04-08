@@ -41,7 +41,10 @@ public class Principal {
 
         System.out.println("Soma: " + pessoa3.somar(3, 5));
 
-        Funcionario f1 = new Funcionario();
+        Funcionario f1 = new Funcionario("analista", "ti");
+        double salario = 1200;
+
+        Funcionario f2 = new Funcionario();
         System.out.println(f1.desconto(1200));
 
         System.out.println(f1.busy());

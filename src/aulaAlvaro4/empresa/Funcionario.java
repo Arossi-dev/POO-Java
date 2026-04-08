@@ -34,6 +34,7 @@ public Funcionario() {
     public double desconto(double salario){
     return salario * 0.10;
     }
+
 }
 
 
